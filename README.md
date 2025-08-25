@@ -1,6 +1,6 @@
 # React Typescript
 Créer une application React + TypeScript pour effectuer un CRUD (Create, Read, Update, Delete) sur une API REST est un cas d’usage courant. Voici une structure de base complète pour démarrer rapidement.
-## Objectifs
+## :rocket: Objectifs
 Créer une application React avec TypeScript qui permet d'afficher, ajouter, modifier et supprimer des utilisateurs à partir d’une API REST.
 ## Explication de la structure du projet
 
@@ -83,3 +83,13 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 );
 ```
 ## :white_check_mark: Résumé visuel
+
+| Dossier/Fichier       | Rôle principal                          |
+| :---------------------|:----------------------------------------| 
+| `src/api/userApi.ts`  | Appels vers l’API                       |
+| `src/components/`     | Composants React                        |
+| `src/types/User.ts`   | Définition du type `User`               |
+| `src/App.tsx`         | Composant racine de l’application       |
+| `src/main.tsx`        | Point d’entrée de l’app, monte `<App />`|
+
+
