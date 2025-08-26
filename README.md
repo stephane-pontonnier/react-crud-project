@@ -32,7 +32,7 @@ Contient les fichiers qui interagissent avec des services ou une API (ex : REST,
 
 - `userApi.ts `:
 
-  - Contient probablement des fonctions comme fetchUsers, createUser, updateUser, etc.
+  - Contient des fonctions comme fetchUsers, createUser, updateUser, etc.
   - C’est là que tu fais les appels réseau pour récupérer ou envoyer des données utilisateur.
   
 :file_folder:`components/`
@@ -53,7 +53,7 @@ Contient les types TypeScript partagés dans l’application.
 
 - `User.ts` :
 
-  - Définit probablement un type ou une interface comme :
+  - Définit un type ou une interface comme :
   ```
   export interface User {
   id: number;
@@ -67,7 +67,7 @@ Contient les types TypeScript partagés dans l’application.
 
 - Le composant racine de ton application React.
 
-- Il compose probablement l’interface principale en affichant <UserForm />, <UserList />, etc.
+- Il compose l’interface principale en affichant <UserForm />, <UserList />, etc.
 
 - C’est là que tu gères l’état global si tu n’utilises pas Redux ou autre.
 
